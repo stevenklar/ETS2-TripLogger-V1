@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CSHA1">
+      <UniqueIdentifier>{f3cc8ac2-ef03-4f05-86e7-caf3a66fea64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{ba59de6e-8b63-4805-89db-72af1b01ccce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\common">
+      <UniqueIdentifier>{741fc8c8-6ba7-4d01-8625-b70413b0e97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\eurotrucks2">
+      <UniqueIdentifier>{c7e634be-5ea3-4233-8bb7-4aac95414b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ETS2Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA1.cpp">
+      <Filter>CSHA1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ETS2TripLogger.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ETS2Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA1.h">
+      <Filter>CSHA1</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\scssdk.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\scssdk_telemetry.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\scssdk_telemetry_channel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\scssdk_telemetry_event.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\scssdk_value.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\common\scssdk_telemetry_common_channels.h">
+      <Filter>SDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\common\scssdk_telemetry_common_configs.h">
+      <Filter>SDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\common\scssdk_telemetry_trailer_common_channels.h">
+      <Filter>SDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\common\scssdk_telemetry_truck_common_channels.h">
+      <Filter>SDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\eurotrucks2\scssdk_eut2.h">
+      <Filter>SDK\eurotrucks2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Eutotruck SDK\include\eurotrucks2\scssdk_telemetry_eut2.h">
+      <Filter>SDK\eurotrucks2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

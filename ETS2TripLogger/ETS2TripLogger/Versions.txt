@@ -1,0 +1,22 @@
+Version 0.1.2
+Bug Fix - Negative and Wrong Values
+
+Version 0.1.1
+Customised Install Program
+User Information Requested and Saved on Installation - No file or Editing required.
+User Account Infomration uses new location (Registry).
+Installation path saved in Registry for Log File Saving (no more "Logs" folder in the win_86 folder)
+
+Version 0.1.0
+MySQL Connection to Online Database.  
+User login information in file in "Plugins Directory"
+Origin Company
+Origin City
+Destination Company
+Destination City
+Cargo
+Weight
+Distance Covered (km)
+Fuel Used (litres)
+Trip Time in Days, Hours, Mins
+Truck Make and Model used
